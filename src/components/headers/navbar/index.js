@@ -8,19 +8,23 @@ const menus = [
     },
     {
         name: "About",
-        to: "/product-list"
-    },
-    {
-        name: "Service",
-        to: "/product-list"
+        to: "/about"
     },
     {
         name: "Shop Now",
-        to: "/product-list"
+        to: "/products"
     },
     {
         name: "Contact",
-        to: "/product-list"
+        to: "/contact"
+    },
+    {
+        name: "Service",
+        to: "/service"
+    },
+    {
+        name: "Checkout",
+        to: "/checkout"
     }
 ];
 

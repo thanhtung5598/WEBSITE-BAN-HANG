@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { routes } from "./routes";
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import IndexPage from "./pages/IndexPage/index";
 
-function App() {
-  return (
-    <Router>
+class App extends Component {
+  showContentMenu = (routes) => {
+    var result = null;
+    if (routes.length > 0) {
+      result = routes.map((route, index) => {
+        return <Route
+          key={index}
+          path={route.path}
+          exact={route.exact}
+          component={route.main}
+        />
+      });
+    }
+    return result;
+  }
+  render() {
+    return (
+      <Router>
         <Switch>
-          <Route path="/" exact={true} component={IndexPage} />
+          {this.showContentMenu(routes)}
         </Switch>
-    </Router>
-  );
-}
+      </Router>
+    );
+  }
 
+
+}
 export default App;

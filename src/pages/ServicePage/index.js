@@ -2,14 +2,13 @@ import React, { Component } from 'react'
 
 // components
 import Layout from "./../../components/layouts/index";
-import Carousel from "./../../components/carousel/index";
-import IndexContainer from "./../../containers/IndexContainer/index";
+import ServiceContainer from "./../../containers/ServiceContainer/index";
 
 class IndexPage extends Component {
     render() {
         return (
-            <Layout Carousel={Carousel}>
-                <IndexContainer />
+            <Layout>
+                <ServiceContainer />
             </Layout>
         )
     }
