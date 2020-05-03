@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 // components
-import Layout from "./../../components/layouts/index";
-import Carousel from "./../../components/carousel/index";
-import IndexContainer from "./../../containers/IndexContainer/index";
+import Layout from './../../components/layouts/index';
+import Carousel from './../../components/carousel/index';
+import IndexContainer from './../../containers/IndexContainer/index';
 
 class IndexPage extends Component {
-    render() {
-        return (
-            <Layout Carousel={Carousel}>
-                <IndexContainer />
-            </Layout>
-        )
-    }
+  render() {
+    return (
+      <Layout Carousel={Carousel}>
+        <IndexContainer />
+      </Layout>
+    );
+  }
 }
 
 export default IndexPage;
