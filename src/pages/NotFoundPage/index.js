@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class IndexPage extends Component {
+class NotFoundPage extends Component {
   render() {
     return (
       <div>
@@ -20,4 +20,4 @@ class IndexPage extends Component {
   }
 }
 
-export default IndexPage;
+export default NotFoundPage;

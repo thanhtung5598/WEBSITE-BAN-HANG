@@ -57,7 +57,7 @@ const HeaderInfo = () => (
                 </button>
               </li>
               <li className="toyscart toyscart2 cart cart box_1">
-                <form action="#" method="post" className="last">
+                <form action="checkout" method="post" className="last">
                   <input type="hidden" name="cmd" defaultValue="_cart" />
                   <input type="hidden" name="display" defaultValue={1} />
                   <button

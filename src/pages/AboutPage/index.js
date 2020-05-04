@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import Layout from './../../components/layouts/index';
 import AboutContainer from './../../containers/AboutContainer/index';
 
-class IndexPage extends Component {
+class AboutPage extends Component {
   render() {
     return (
       <Layout>
@@ -14,4 +14,4 @@ class IndexPage extends Component {
   }
 }
 
-export default IndexPage;
+export default AboutPage;

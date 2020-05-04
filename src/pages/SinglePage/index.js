@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 
 // components
 import Layout from './../../components/layouts/index';
-import ServiceContainer from './../../containers/ServiceContainer/index';
+import SingleContainer from './../../containers/SingleContainer';
 
-class IndexPage extends Component {
+class SinglePage extends Component {
   render() {
     return (
       <Layout>
-        <ServiceContainer />
+        <SingleContainer />
       </Layout>
     );
   }
 }
 
-export default IndexPage;
+export default SinglePage;

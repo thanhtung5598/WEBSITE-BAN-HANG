@@ -1,11 +1,11 @@
 import React from 'react'
 
-import IndexPage from "./pages/IndexPage/index";
-import ProductPage from "./pages/ProductPage/index";
-import AboutPage from "./pages/AboutPage/index";
-import ContactPage from "./pages/ContactPage/index";
-import ServicePage from "./pages/ServicePage/index";
-import CheckoutPage from "./pages/CheckoutPage/index";
+import IndexPage from "./pages/IndexPage";
+import ProductPage from "./pages/ProductPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import CheckoutPage from "./pages/CheckoutPage";
+import SinglePage from "./pages/SinglePage";
 
 import NotFoundPage from "./pages/NotFoundPage/index";
 
@@ -31,15 +31,15 @@ export const routes = [
         main: () => <ContactPage />
     },
     {
-        path: '/service',
-        exact: false,
-        main: () => <ServicePage />
-    },
-    {
         path: '/checkout',
         exact: false,
         main: () => <CheckoutPage />
     },
+    {
+      path: '/single',
+      exact: false,
+      main: () => <SinglePage />
+  },
     {
         path: '',
         exact: false,

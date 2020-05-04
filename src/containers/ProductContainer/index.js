@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from 'react-router-dom';
 
 const ProductContainer = () => {
     return (
@@ -220,7 +221,7 @@ const ProductContainer = () => {
                                                 <img src="images/a1.jpg" className="img-thumbnail img-fluid" alt="" />
                                                 <div className="men-cart-pro">
                                                     <div className="inner-men-cart-pro">
-                                                        <a href="single.html" className="link-product-add-cart">Quick View</a>
+                                                        <Link to="single" className="link-product-add-cart">Quick View</Link>
                                                     </div>
                                                 </div>
                                                 <span className="product-new-top">New</span>

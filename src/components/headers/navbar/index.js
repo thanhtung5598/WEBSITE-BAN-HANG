@@ -20,10 +20,6 @@ const menus = [
     to: '/contact'
   },
   {
-    name: 'Service',
-    to: '/service'
-  },
-  {
     name: 'Checkout',
     to: '/checkout'
   }

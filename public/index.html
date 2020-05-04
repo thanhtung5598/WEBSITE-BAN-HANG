@@ -132,7 +132,17 @@
       });
     });
   </script>
-  <!--//closed-->
+   <!-- FlexSlider -->
+   <script src="js/jquery.flexslider.js"></script>
+   <script>
+    // Can also be used with $(document).ready()
+    $(window).load(function () {
+      $('.flexslider1').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails"
+      });
+    });
+ </script>
   <script>
     toys.render();
 
@@ -211,7 +221,6 @@
       });
     });
   </script>
-  <!-- start-smoth-scrolling -->
   <!-- here stars scrolling icon -->
   <script>
     $(document).ready(function () {
