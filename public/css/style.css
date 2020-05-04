@@ -144,7 +144,14 @@ margin: 0px;
     background:rgba(255, 255, 255, 0);
     border: none;
     cursor: pointer;
-	outline:none;
+	  outline:none;
+}
+.cart-icons #login{
+  color: white;
+  margin-left: 20px;
+  border-radius: 24px;
+  padding: 0 15px;
+  background: #ea1d5d;
 }
 /*--//headder info-contact --*/
 .search-right input[type="search"] {
@@ -1220,6 +1227,7 @@ background: #fff;
     height: 331px;
 }
 }
+
 @media(max-width:800px){
 .icons ul li a span, .cart-icons ul li span, .icons-social ul li span {
     font-size: 14px;

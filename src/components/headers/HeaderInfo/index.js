@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const HeaderInfo = () => (
   <div>
@@ -40,35 +41,37 @@ const HeaderInfo = () => (
             </button>
           </form>
         </div>
-        <div className="col-lg-4 col-md-3 right-side-cart">
+        <div className="col-lg-4 d-flex flex-row-reverse col-md-3 right-side-cart">
           <div className="cart-icons">
             <ul>
-              <li>
-                <span className="far fa-heart" />
-              </li>
-              <li>
-                <button
-                  type="button"
-                  data-toggle="modal"
-                  data-target="#exampleModal"
-                >
-                  {' '}
-                  <span className="far fa-user" />
-                </button>
-              </li>
               <li className="toyscart toyscart2 cart cart box_1">
                 <form action="checkout" method="post" className="last">
                   <input type="hidden" name="cmd" defaultValue="_cart" />
                   <input type="hidden" name="display" defaultValue={1} />
                   <button
-                    className="top_toys_cart"
+                    className="top_toys_cart rounded"
                     type="submit"
                     name="submit"
                     value
                   >
-                    <span className="fas fa-cart-arrow-down" />
+                    <Link to="checkout">
+                      <span className="fas fa-cart-arrow-down" />
+                      <Link href="#" className="badge badge-danger">
+                        10
+                      </Link>
+                    </Link>
                   </button>
                 </form>
+              </li>
+              <li>
+                <button
+                  id="login"
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                >
+                  Đăng Nhập
+                </button>
               </li>
             </ul>
           </div>

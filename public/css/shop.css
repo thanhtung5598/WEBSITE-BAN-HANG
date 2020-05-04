@@ -738,7 +738,14 @@ input.checked {
     border: 1px solid #e4e4e4;
 }
 /*-- //special deals --*/
-
+.top_toys_cart{
+	position: relative;
+}
+.badge-danger{
+	position: absolute;
+	right: 0;
+	top: -10px;
+}
 /*-- nuts --*/
 .men-thumb-item {
     text-align: center;
