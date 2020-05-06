@@ -1,22 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Breadcrumb from './../../components/breadcrumb';
+
 const SignUpContainer = () => {
   return (
     <>
-      <div className="inner_page-banner one-img"></div>
-      {/*//banner */}
-      {/* short */}
-      <div className="using-border py-3">
-        <div className="inner_breadcrumb  ml-4">
-          <ul className="short_ls">
-            <li>
-              <Link to="/">Home</Link>
-              <span className="mx-2"> / /</span>
-            </li>
-            <li>Sign Up</li>
-          </ul>
-        </div>
-      </div>
+      <Breadcrumb current="Sign Up" />
       <section className="signup py-lg-4 py-md-3 py-sm-3 py-3">
         <div className="container py-lg-5 py-md-4 py-sm-4 py-3">
           <form style={{ border: "1px solid #ccc" }}>

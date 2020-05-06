@@ -7,7 +7,7 @@ const HeaderInfo = () => (
       <div className="hedder-up row">
         <div className="col-lg-3 col-md-3 logo-head">
           <h1>
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="/">
               Toys-Shop
             </a>
           </h1>

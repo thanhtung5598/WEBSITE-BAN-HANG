@@ -1,27 +1,11 @@
 import React, { Fragment } from "react";
+import Breadcrumb from './../../components/breadcrumb';
 import { Link } from 'react-router-dom';
 
 const ProductContainer = () => {
     return (
         <Fragment>
-            {/* banner */}
-            <div className="inner_page-banner one-img">
-            </div>
-            {/*//banner */}
-            {/* short */}
-            <div className="using-border py-3">
-                <div className="inner_breadcrumb  ml-4">
-                    <ul className="short_ls">
-                        <li>
-                            <a href="index.html">Home</a>
-                            <span>/ /</span>
-                        </li>
-                        <li>Shop Now</li>
-                    </ul>
-                </div>
-            </div>
-            {/* //short*/}
-            {/*show Now*/}
+            <Breadcrumb current="Shop Now" />
             <section className="contact py-lg-4 py-md-3 py-sm-3 py-3">
                 <div className="container-fluid py-lg-5 py-md-4 py-sm-4 py-3">
                     <h3 className="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Toys Shop</h3>

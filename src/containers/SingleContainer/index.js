@@ -1,25 +1,10 @@
 import React from "react";
+import Breadcrumb from './../../components/breadcrumb';
 
 const SingleContainer = () => {
   return (
     <div>
-      {/* banner */}
-      <div className="inner_page-banner one-img"></div>
-      {/*//banner */}
-      {/* short */}
-      <div className="using-border py-3">
-        <div className="inner_breadcrumb  ml-4">
-          <ul className="short_ls">
-            <li>
-              <a href="index.html">Home</a>
-              <span>/ /</span>
-            </li>
-            <li>Single Page</li>
-          </ul>
-        </div>
-      </div>
-      {/* //short*/}
-      {/*//banner */}
+      <Breadcrumb current="Single Page" />
       {/*/shop*/}
       <section className="banner-bottom py-lg-5 py-3">
         <div className="container">
@@ -54,27 +39,27 @@ const SingleContainer = () => {
                 <div className="rating1">
                   <ul className="stars">
                     <li>
-                      <a href="#">
+                      <a href="./" alt="" >
                         <i className="fa fa-star" aria-hidden="true" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="." alt="">
                         <i className="fa fa-star" aria-hidden="true" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="." alt="">
                         <i className="fa fa-star" aria-hidden="true" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="." alt="">
                         <i className="fa fa-star-half-o" aria-hidden="true" />
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="." alt="">
                         <i className="fa fa-star-o" aria-hidden="true" />
                       </a>
                     </li>

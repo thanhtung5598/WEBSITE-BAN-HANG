@@ -1,26 +1,11 @@
 import React, { Fragment } from "react";
+import Breadcrumb from './../../components/breadcrumb';
 
 const CheckoutContainer = () => {
   return (
     <Fragment>
       <div>
-        {/* banner */}
-        <div className="inner_page-banner one-img"></div>
-        {/* short */}
-        <div className="using-border py-3">
-          <div className="inner_breadcrumb  ml-4">
-            <ul className="short_ls">
-              <li>
-                <a href="index.html">Home</a>
-                <span>/ /</span>
-              </li>
-              <li>Checkout</li>
-            </ul>
-          </div>
-        </div>
-        {/* //short*/}
-        {/*Checkout*/}
-        {/* //banner */}
+        <Breadcrumb current="Checkout" />
         {/* top Products */}
         <section className="checkout py-lg-4 py-md-3 py-sm-3 py-3">
           <div className="container py-lg-5 py-md-4 py-sm-4 py-3">
