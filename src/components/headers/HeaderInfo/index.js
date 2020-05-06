@@ -3,23 +3,6 @@ import { Link } from "react-router-dom";
 
 const HeaderInfo = () => (
   <div>
-    <div className="info-top-grid">
-      <div className="info-contact-agile">
-        <ul>
-          <li>
-            <span className="fas fa-phone-volume" />
-            <p>+(000)123 4565 32</p>
-          </li>
-          <li>
-            <span className="fas fa-envelope" />
-            <p>
-              <a href="mailto:info@example.com">info@example1.com</a>
-            </p>
-          </li>
-          <li></li>
-        </ul>
-      </div>
-    </div>
     <div className="container-fluid">
       <div className="hedder-up row">
         <div className="col-lg-3 col-md-3 logo-head">
@@ -64,14 +47,9 @@ const HeaderInfo = () => (
                 </form>
               </li>
               <li>
-                <button
-                  id="login"
-                  type="button"
-                  data-toggle="modal"
-                  data-target="#exampleModal"
-                >
-                  Đăng Nhập
-                </button>
+                <Link id="login" to="signin" style={{ padding: "10px" }}>
+                  Sign In
+                </Link>
               </li>
             </ul>
           </div>

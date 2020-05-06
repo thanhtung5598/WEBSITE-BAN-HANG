@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // components
-import Layout from './../../components/layouts/index';
-import SingleContainer from './../../containers/SingleContainer';
+import Layout from "./../../components/layouts/index";
+import SingleContainer from "./../../containers/SingleContainer";
 
 class SinglePage extends Component {
   render() {

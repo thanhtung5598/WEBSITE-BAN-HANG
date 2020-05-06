@@ -1,6 +1,6 @@
 import React from 'react';
 import Proptypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const menus = [
   {
@@ -29,9 +29,9 @@ const MenuCustom = props => {
   const { label, to } = props;
   return (
     <li className="nav-item">
-      <Link className="nav-link" to={to}>
+      <NavLink className="nav-link" to={to}>
         {label}
-      </Link>
+      </NavLink>
     </li>
   );
 };
